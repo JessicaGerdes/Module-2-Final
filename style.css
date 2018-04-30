@@ -1,45 +1,26 @@
 body {
     background-color: #dd8db5;
   }
-  footer {
-    font-size: 3em;
-    font: royal blue;
+.container {
+    background: powderblue;
+} */
+/* /* #me {
+      background: powderblue;
+  } */
+  #me {
+      background: powderblue;
   }
-  #image {
-    size: 5px
+  .header-container {
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
   }
-  .fa {
-    padding: 20px;
-    font-size: 10px;
-    width: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    background: purple;
-    color: white;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-footer.sticky {
-    position: sticky;
-    top: 0;
-}
-#head-soc li#g a {
-    background-position: 0px 0px;
-}
-#head-soc li#g a:hover {
-    background-position: 0px -32px;
-}
-#head-soc li#fb a {
-    background-position: -96px 0px;
-}
-#head-soc li#fb a:hover {
-    background-position: -96px -32px;
-}
-#head-soc li#li a {
-    background-position: -160px 0px;
-}
-#head-soc li#li a:hover {
-    background-position: -160px -32px;
-}
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
